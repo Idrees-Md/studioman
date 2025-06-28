@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Get form data
         const formData = new FormData(contactForm);
         const data = {
-            firstName: formData.get('firstName'),
-            lastName: formData.get('lastName'),
+            name: formData.get('name'),
             email: formData.get('email'),
             phone: formData.get('phone'),
             message: formData.get('message')
@@ -26,8 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const errors = [];
         
         // Check required fields
-        if (!data.firstName.trim()) errors.push('First name is required');
-        if (!data.lastName.trim()) errors.push('Last name is required');
+        if (!data.name.trim()) errors.push('Name is required');
         if (!data.email.trim()) errors.push('Email is required');
         if (!data.phone.trim()) errors.push('Phone number is required');
         if (!data.message.trim()) errors.push('Message is required');
