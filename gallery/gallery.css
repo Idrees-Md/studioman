@@ -136,19 +136,22 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    height: 60vh;
-    /* background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%); */
+
+.hero{
+    height: 100vh;
     background-image: url(/images/other\ images/cover\ 2.jpg);
+    background-size: cover;            /* 👈 scales image to cover the section */
+    background-position: center top;   /* 👈 keeps the top in view */
+    background-repeat: no-repeat;      /* 👈 prevent tiling */
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     margin-top: 80px;
+    text-align: center;
+    color: white;
 }
-
-
 
 
 
@@ -492,8 +495,17 @@ body {
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 2rem;
+       
     }
+    .hero{
+        /* background-image: url(/images/other\ images/cover\ 2.jpg); */
+        /* width: 100%; */
+        object-fit: cover;
+        object-position: center top;
+        position: relative;
+        
 
+    }
     .gallery-grid {
         column-count: 1;
         column-gap: 0;
