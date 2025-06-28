@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Man - Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   .phone-btn {
+    background-color: #c0cfc6;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-camera"></i>
+                    <span>STUDIO MAN</span>
+                </div>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <a href="/index.html" class="nav-link">Home</a>
+                    <a href="/about/about us.html" class="nav-link">About Us</a>
+                    <a href="/prizing/prizing.html" class="nav-link">Pricing</a>
+                    <div class="nav-dropdown">
+                        <a href="/gallery/gallery.html" class="nav-link active">Gallery <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="gallery.html">Bridal Photography</a>
+                            <a href="gallery.html">Groom Photography</a>
+                            <a href="gallery.html">Wedding Photography</a>
+                            <a href="gallery.html">Portrait Sessions</a>
+                            <a href="gallery.html">BabyShower And Birthday</a>
+                            <a href="gallery.html">Outdoor</a>
+                        </div>
+                    </div>
+                    <a href="/contact/contact.html" class="nav-link">Contact</a>
+                </nav>
+
+                <div class="social-links">
+                     <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/studioman_karthick?igsh=MWFzZGc4bDV4eHhwcQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@jayamcreative7197?si=XmYTgdJ3_H_5T0Rd" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+
+                <div class="mobile-menu-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Photography Gallery</h1>
+            <p>Capturing moments that last a lifetime</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="category-nav">
+        <div class="container">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="bridal">Bridal Photography</button>
+                <button class="category-btn" data-category="groom">Groom Photography</button>
+                <button class="category-btn" data-category="wedding">Wedding Photography</button>
+                <button class="category-btn" data-category="portrait">Portrait Sessions</button>
+                <button class="category-btn" data-category="babyshower">BabyShower And Birthday</button>
+                <button class="category-btn" data-category="outdoor">Outdoor</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Professional Photography Services</h2>
+                <p>We specialize in capturing life's most precious moments with artistic vision and technical excellence. Our team of experienced photographers is dedicated to delivering stunning images that tell your unique story.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Thanjavur,Tamil Nadu</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>91+ 9791438860</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jayamtnj@gmail.com</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="location.href='/contact/contact.html'">CONTACT ME</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <img src="/placeholder.svg" alt="" id="modalImage">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalCategory"></p>
+            </div>
+        </div>
+    </div>
+ <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-camera"></i>
+                        <span>STUDIO MAN</span>
+                    </div>
+                    <p>Timeless. Honest. Unscripted. We believe the best cinematic happen naturally — and we're there to catch them.</p>
+                    <div class="footer-contact">
+                        <button class="whatsapp-btn" onclick="window.location.href='https://wa.me/917010628028?text=Hello%20I%20would%20like%20to%20book%20a%20photo%20shoot';">
+    <i class="fa-brands fa-whatsapp"></i> Book a Shoot
+</button>
+                       
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about/about us.html">About Us</a></li>
+                        <li><a href="/prizing/prizing.html">Pricing</a></li>
+                        <li><a href="/gallery/gallery.html">Gallery</a></li>
+                        <li><a href="/contact/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#weddings">Wedding Photography</a></li>
+                        <li><a href="#portraits">Portrait Sessions</a></li>
+                        <li><a href="#events">Event Photography</a></li>
+                        <li><a href="#commercial">Commercial Work</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    
+                    <div class="footer-widget">
+                        <h5>Wedding Photography Price Packages in Thanjavur</h5>
+                    </div>
+                    <button class="phone-btn" onclick="window.location.href='tel:+919791438860'">
+    <i class="fa-solid fa-phone"></i> Call Owner
+</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Studio Man. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>

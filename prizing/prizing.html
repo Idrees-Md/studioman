@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Pricing Packages</title>
+    <link rel="stylesheet" href="prizing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+  .whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+       <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-camera"></i>
+                <span>STUDIO MAN</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a  href="/about/about us.html"  class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/prizing/prizing.html" class="nav-link active">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="/gallery/gallery.html" class="nav-link dropdown-toggle">
+                        Gallery <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="gallery/gallery.html">BridalPhotography</a></li>
+                        <li><a href="gallery/gallery.html">Groom Photography</a></li>
+                        <li><a href="gallery/gallery.html">Wedding Photography</a></li>
+                        <li><a href="gallery/gallery.html">Portrait sessions</a></li>
+                        <li><a href="gallery/gallery.html">BabyShower And Birthday</a></li>
+                        <li><a href="gallery/gallery.html">Outdoor</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact/contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/studioman_karthick?igsh=MWFzZGc4bDV4eHhwcQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@jayamcreative7197?si=XmYTgdJ3_H_5T0Rd" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">Choose Your Perfect Package</h1>
+            <p class="subtitle">Professional services tailored to your needs</p>
+        </header>
+
+        <div class="pricing-grid">
+            <!-- Package 1: Basic -->
+            <div class="pricing-card" data-package="basic">
+                <div class="card-content layout-left">
+                    <div class="image-section">
+                        <img src="/placeholder.svg?height=200&width=250" alt="Basic Package" class="package-image">
+                        <div class="price-badge">$299</div>
+                    </div>
+                    <div class="info-section">
+                        <h2 class="package-name">Basic Starter</h2>
+                        <ul class="services-list">
+                            <li><i class="fas fa-check"></i> Initial Consultation</li>
+                            <li><i class="fas fa-check"></i> Basic Setup</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                            <li><i class="fas fa-check"></i> 30-day Follow-up</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="description">
+                    Perfect for individuals or small businesses just getting started. Includes essential services to establish your foundation.
+                </div>
+                <button class="cta-button" onclick="bookOnWhatsApp('Basic Starter', '$299')">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </button>
+            </div>
+
+            <!-- Package 2: Professional -->
+            <div class="pricing-card" data-package="professional">
+                <div class="card-content layout-right">
+                    <div class="info-section">
+                        <h2 class="package-name">Professional Plus</h2>
+                        <ul class="services-list">
+                            <li><i class="fas fa-check"></i> Everything in Basic</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Monthly Reports</li>
+                            <li><i class="fas fa-check"></i> Custom Integration</li>
+                        </ul>
+                    </div>
+                    <div class="image-section">
+                        <img src="/placeholder.svg?height=200&width=250" alt="Professional Package" class="package-image">
+                        <div class="price-badge">$599</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Ideal for growing businesses that need comprehensive solutions with advanced features and dedicated support.
+                </div>
+                <button class="cta-button" onclick="bookOnWhatsApp('Professional Plus', '$599')">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </button>
+            </div>
+
+            <!-- Package 3: Premium -->
+            <div class="pricing-card" data-package="premium">
+                <div class="card-content layout-left">
+                    <div class="image-section">
+                        <img src="/placeholder.svg?height=200&width=250" alt="Premium Package" class="package-image">
+                        <div class="price-badge">$999</div>
+                    </div>
+                    <div class="info-section">
+                        <h2 class="package-name">Premium Elite</h2>
+                        <ul class="services-list">
+                            <li><i class="fas fa-check"></i> Everything in Professional</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            <li><i class="fas fa-check"></i> Custom Development</li>
+                            <li><i class="fas fa-check"></i> Weekly Check-ins</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            <li><i class="fas fa-check"></i> Training Sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="description">
+                    Our most comprehensive package for established businesses requiring premium features and white-glove service.
+                </div>
+                <button class="cta-button" onclick="bookOnWhatsApp('Premium Elite', '$999')">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </button>
+            </div>
+
+            <!-- Package 4: Enterprise -->
+            <div class="pricing-card" data-package="enterprise">
+                <div class="card-content layout-right">
+                    <div class="info-section">
+                        <h2 class="package-name">Enterprise Solution</h2>
+                        <ul class="services-list">
+                            <li><i class="fas fa-check"></i> Everything in Premium</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                            <li><i class="fas fa-check"></i> Custom Integrations</li>
+                            <li><i class="fas fa-check"></i> Advanced Security</li>
+                            <li><i class="fas fa-check"></i> Scalable Infrastructure</li>
+                            <li><i class="fas fa-check"></i> SLA Guarantee</li>
+                        </ul>
+                    </div>
+                    <div class="image-section">
+                        <img src="/placeholder.svg?height=200&width=250" alt="Enterprise Package" class="package-image">
+                        <div class="price-badge">$1,999</div>
+                    </div>
+                </div>
+                <div class="description">
+                    Tailored for large organizations with complex requirements and need for enterprise-grade solutions.
+                </div>
+                <button class="cta-button" onclick="bookOnWhatsApp('Enterprise Solution', '$1,999')">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </button>
+            </div>
+
+            <!-- Package 5: Custom -->
+            <div class="pricing-card" data-package="custom">
+                <div class="card-content layout-left">
+                    <div class="image-section">
+                        <img src="/placeholder.svg?height=200&width=250" alt="Custom Package" class="package-image">
+                        <div class="price-badge">Custom</div>
+                    </div>
+                    <div class="info-section">
+                        <h2 class="package-name">Custom Tailored</h2>
+                        <ul class="services-list">
+                            <li><i class="fas fa-check"></i> Fully Customizable</li>
+                            <li><i class="fas fa-check"></i> Consultation Call</li>
+                            <li><i class="fas fa-check"></i> Bespoke Solutions</li>
+                            <li><i class="fas fa-check"></i> Flexible Pricing</li>
+                            <li><i class="fas fa-check"></i> Ongoing Partnership</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="description">
+                    Have unique requirements? Let's create a custom package that perfectly fits your specific needs and budget.
+                </div>
+                <button class="cta-button" onclick="bookOnWhatsApp('Custom Tailored', 'Custom Pricing')">
+                    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+     <footer>
+        <!-- Decorative elements -->
+        <div class="decoration circle"></div>
+        <div class="decoration ring"></div>
+        <div class="decoration diamond"></div>
+        
+        <!-- Navigation Links -->
+        <div class="footer-links">
+            <div class="link-row">
+                <a href="/index.html">HOME</a>
+                <a href="/about/about us.html">ABOUT US</a>
+                <a href="/prizing/prizing.html">PRIZING</a>
+            </div>
+            <div class="link-row">
+                <a href="/gallery/gallery.html">GALLERY</a>
+                <a href="/contact/contact.html">CONTACT US</a>
+            </div>
+        </div>
+        
+        <!-- Tagline Section -->
+        <div class="tagline">
+            <h2>LEAVE IT TO US</h2>
+            <p>YOUR BIG DAY IS GOING TO BE PERFECT!</p>
+        </div>
+        
+        <!-- Call to Action Button -->
+        <button class="cta-button1" onclick="location.href='/contact/contact.html'">GET IN TOUCH</button>
+    </footer>
+     <script>
+        // Add interactive effect to the button
+        document.querySelector('.cta-button').addEventListener('click', function() {
+            this.textContent = "WE'LL CONTACT YOU SOON!";
+            this.style.backgroundColor = "#d4af37";
+            this.style.borderColor = "#d4af37";
+            this.style.color = "#000";
+            
+            setTimeout(() => {
+                this.textContent = "GET IN TOUCH";
+                this.style.backgroundColor = "transparent";
+                this.style.borderColor = "#fff";
+                this.style.color = "#fff";
+            }, 2000);
+        });
+    </script>
+    <script src="prizing.js"></script>
+</body>
+</html>
