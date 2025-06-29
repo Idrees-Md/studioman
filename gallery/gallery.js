@@ -25,11 +25,21 @@ const galleryData = [
     { id: 23, src: '/images/groom/groom 5.jpg', category: 'groom', title: 'groom photograph', alt: 'professional groom photographs' },
     { id: 24, src: '/images/groom/groom 6.jpeg', category: 'groom', title: 'groom Portrait', alt: 'groom portrait session' },
     { id: 25, src: '/images/groom/groom 7.jpg', category: 'groom', title: 'groom', alt: 'Professional groom portrait' },
-    // { id: 26, src: '/images/bridal/bride 11.jpeg', category: 'bridal', title: 'beautiful bride', alt: 'bridal photography' },
-    // { id: 27, src: '/images/bridal/bride 12.jpg', category: 'bridal', title: 'bridal Details', alt: 'bridal detail shots' },
-    // { id: 28, src: '/images/bridal/bride 13.webp', category: 'bridal', title: 'bridal Session', alt: 'bridal portrait session' },
-    // { id: 29, src: '/images/groom/groom 1.avif', category: 'groom', title: 'groom photograph', alt: 'wedding groom photography' },
-    // { id: 30, src: '/images/outdoor/outdoor 2.jpg', category: 'outdoor', title: 'couple Shoot', alt: 'couple shoot photography' }
+    { id: 26, src: '/images/wedding/wedding 3.jpg', category: 'wedding', title: 'beautiful wedding', alt: 'wedding photography' },
+    { id: 27, src: '/images/wedding/wedding 4.jpg', category: 'wedding', title: 'wedding Details', alt: 'wedding detail shots' },
+    { id: 28, src: '/images/wedding/wedding 5.jpg', category: 'wedding', title: 'wedding Session', alt: 'wedding portrait session' },
+    { id: 29, src: '/images/wedding/wedding 6.avif', category: 'wedding', title: 'wedding photograph', alt: 'wedding photography' },
+    { id: 30, src: '/images/wedding/wedding 7.jpg', category: 'wedding', title: 'wedding Shoot', alt: 'wedding shoot photography' },
+    { id: 31, src: '/images/wedding/wedding 8.jpg', category: 'wedding', title: 'Wedding Ceremony', alt: 'Beautiful wedding ceremony' },
+    { id: 32, src: '/images/wedding/wedding 9.webp', category: 'wedding', title: 'wedding', alt: 'wedding photography' },
+    { id: 33, src: '/images/wedding/wedding 10.jpg', category: 'wedding', title: 'Wedding Event', alt: 'wedding event photography' },
+    // { id: 34, src: '/images/babyshower birthday/baby 1.jpg', category: 'babyshower', title: 'baby Photography', alt: 'baby photo shoot' },
+    // { id: 35, src: '/images/bridal/bride 7.jpg', category: 'bridal', title: 'Bridal Photography', alt: 'Bridal photography' },
+    // { id: 36, src: '/images/bridal/bride 6.jpg', category: 'bridal', title: 'Bridal Photography', alt: 'Bridal Photography' },
+    // { id: 37, src: '/images/bridal/bride 5.jpg', category: 'bridal', title: 'Bridal Portrait', alt: 'Beautiful bridal portrait' },
+    // { id: 38, src: '/images/bridal/bride 4.jpg', category: 'bridal', title: 'Bridal Portrait', alt: 'Bridal portrait session', },
+    // { id: 39, src: '/images/bridal/bride 2.jpg', category: 'bridal', title: 'Birthday Party', alt: 'Birthday celebration' },
+    // { id: 40, src: '/images/bridal/bride 3.jpg', category: 'bridal', title: 'Brand Photography', alt: 'Brand photography session' },
 ];
 
 // DOM elements
