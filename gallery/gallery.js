@@ -48,8 +48,15 @@ const galleryData = [
     { id: 46, src: '/images/babyshower birthday/baby 7.jpg', category: 'babyshower', title: 'birthday Photography', alt: 'birthday photo' },
     { id: 47, src: '/images/babyshower birthday/baby 8.jpg', category: 'babyshower', title: 'Baby Photography', alt: 'Baby Photography' },
     { id: 48, src: '/images/babyshower birthday/baby 9.jpg', category: 'babyshower', title: 'birthday Portrait', alt: 'Beautiful birthday portrait' },
-    { id: 49, src: '/images/babyshower birthday/baby 10.jpeg', category: 'baby', title: 'Birthday Party', alt: 'Birthday celebration' }
-    // { id: 50, src: '/images/bridal/bride 3.jpg', category: 'bridal', title: 'Brand Photography', alt: 'Brand photography session' },    
+    { id: 49, src: '/images/babyshower birthday/baby 10.jpeg', category: 'baby', title: 'Birthday Party', alt: 'Birthday celebration' },
+    { id: 50, src: '/images/outdoor/outdoor 3.jpeg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor photography session' },    
+    { id: 51, src: '/images/outdoor/outdoor 4.jpeg', category: 'outdoor', title: 'outdoor', alt: 'Beautiful outdoor photo' },
+    { id: 52, src: '/images/outdoor/outdoor 5.jpg', category: 'outdoor', title: 'outdoor pic', alt: 'outdoor photography' },
+    { id: 53, src: '/images/outdoor/outdoor 6.jpg', category: 'outdoor', title: 'outdoor Event', alt: 'outdoor event photography' },
+    { id: 54, src: '/images/outdoor/outdoor 7.jpg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor photo shoot' },
+    { id: 55, src: '/images/outdoor/outdoor 8.jpeg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor photography' },
+    { id: 56, src: '/images/outdoor/outdoor 9.jpg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor Photography' },
+    { id: 57, src: '/images/outdoor/outdoor 10.webp', category: 'outdoor', title: 'outdoor Portrait', alt: 'Beautiful outdoor portrait' }
 ];
 
 // DOM elements
