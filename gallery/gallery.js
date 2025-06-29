@@ -56,7 +56,8 @@ const galleryData = [
     { id: 54, src: '/images/outdoor/outdoor 7.jpg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor photo shoot' },
     { id: 55, src: '/images/outdoor/outdoor 8.jpeg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor photography' },
     { id: 56, src: '/images/outdoor/outdoor 9.jpg', category: 'outdoor', title: 'outdoor Photography', alt: 'outdoor Photography' },
-    { id: 57, src: '/images/outdoor/outdoor 10.webp', category: 'outdoor', title: 'outdoor Portrait', alt: 'Beautiful outdoor portrait' }
+    { id: 57, src: '/images/outdoor/outdoor 10.webp', category: 'outdoor', title: 'outdoor Portrait', alt: 'Beautiful outdoor portrait' },
+     { id: 57, src: '/images/other images/cover 1.jpg', category: 'wedding', title: 'wedding', alt: 'mangalyam ' }
 ];
 
 // DOM elements
