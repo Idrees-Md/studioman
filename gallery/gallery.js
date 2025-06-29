@@ -33,13 +33,14 @@ const galleryData = [
     { id: 31, src: '/images/wedding/wedding 8.jpg', category: 'wedding', title: 'Wedding Ceremony', alt: 'Beautiful wedding ceremony' },
     { id: 32, src: '/images/wedding/wedding 9.webp', category: 'wedding', title: 'wedding', alt: 'wedding photography' },
     { id: 33, src: '/images/wedding/wedding 10.jpg', category: 'wedding', title: 'Wedding Event', alt: 'wedding event photography' },
-    // { id: 34, src: '/images/babyshower birthday/baby 1.jpg', category: 'babyshower', title: 'baby Photography', alt: 'baby photo shoot' },
-    // { id: 35, src: '/images/bridal/bride 7.jpg', category: 'bridal', title: 'Bridal Photography', alt: 'Bridal photography' },
-    // { id: 36, src: '/images/bridal/bride 6.jpg', category: 'bridal', title: 'Bridal Photography', alt: 'Bridal Photography' },
-    // { id: 37, src: '/images/bridal/bride 5.jpg', category: 'bridal', title: 'Bridal Portrait', alt: 'Beautiful bridal portrait' },
-    // { id: 38, src: '/images/bridal/bride 4.jpg', category: 'bridal', title: 'Bridal Portrait', alt: 'Bridal portrait session', },
-    // { id: 39, src: '/images/bridal/bride 2.jpg', category: 'bridal', title: 'Birthday Party', alt: 'Birthday celebration' },
-    // { id: 40, src: '/images/bridal/bride 3.jpg', category: 'bridal', title: 'Brand Photography', alt: 'Brand photography session' },
+    { id: 34, src: '/images/portrait/portrait 1.jpeg', category: 'portrait', title: 'portrait Photography', alt: 'portrait photo shoot' },
+    { id: 35, src: '/images/portrait/portrait 2.jpg', category: 'portrait', title: 'portrait Photography', alt: 'studioman photography' },
+    { id: 36, src: '/images/portrait/portrait 3.webp', category: 'portrait', title: 'portrait Photography', alt: 'studioman Photography' },
+    { id: 37, src: '/images/portrait/portrait 4.webp', category: 'portrait', title: 'Portrait', alt: 'Beautiful portrait' },
+    { id: 38, src: '/images/portrait/portrait 5.jpg', category: 'portrait', title: ' Portrait', alt: 'portrait session', },
+    { id: 39, src: '/images/portrait/portrait 6.jpg', category: 'portrait', title: 'Birthday Party', alt: 'Birthday celebration' },
+    { id: 40, src: '/images/portrait/portrait 7.jpeg', category: 'portrait', title: 'Brand Photography', alt: 'Brand photography session' },
+    { id: 41, src: '/images/portrait/portrait 8.jpg', category: 'portrait', title: 'Brand Photography', alt: 'Brand photography session' }
 ];
 
 // DOM elements
