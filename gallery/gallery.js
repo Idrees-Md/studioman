@@ -40,7 +40,16 @@ const galleryData = [
     { id: 38, src: '/images/portrait/portrait 5.jpg', category: 'portrait', title: ' Portrait', alt: 'portrait session', },
     { id: 39, src: '/images/portrait/portrait 6.jpg', category: 'portrait', title: 'Birthday Party', alt: 'Birthday celebration' },
     { id: 40, src: '/images/portrait/portrait 7.jpeg', category: 'portrait', title: 'Brand Photography', alt: 'Brand photography session' },
-    { id: 41, src: '/images/portrait/portrait 8.jpg', category: 'portrait', title: 'Brand Photography', alt: 'Brand photography session' }
+    { id: 41, src: '/images/portrait/portrait 8.jpg', category: 'portrait', title: 'Brand Photography', alt: 'Brand photography session' },
+    { id: 42, src: '/images/babyshower birthday/baby 3.jpg', category: 'babyshower', title: 'babyshower Ceremony', alt: 'Beautiful babyshower ceremony' },
+    { id: 43, src: '/images/babyshower birthday/baby 4.png', category: 'babyshower', title: 'babyshower', alt: 'baby shower photography' },
+    { id: 44, src: '/images/babyshower birthday/baby 5.jpg', category: 'babyshower', title: 'babyshower Event', alt: 'babyshower event photography' },
+    { id: 45, src: '/images/babyshower birthday/baby 6.jpg', category: 'babyshower', title: 'baby Photography', alt: 'baby photo shoot' },
+    { id: 46, src: '/images/babyshower birthday/baby 7.jpg', category: 'babyshower', title: 'birthday Photography', alt: 'birthday photo' },
+    { id: 47, src: '/images/babyshower birthday/baby 8.jpg', category: 'babyshower', title: 'Baby Photography', alt: 'Baby Photography' },
+    { id: 48, src: '/images/babyshower birthday/baby 9.jpg', category: 'babyshower', title: 'birthday Portrait', alt: 'Beautiful birthday portrait' },
+    { id: 49, src: '/images/babyshower birthday/baby 10.jpeg', category: 'baby', title: 'Birthday Party', alt: 'Birthday celebration' }
+    // { id: 50, src: '/images/bridal/bride 3.jpg', category: 'bridal', title: 'Brand Photography', alt: 'Brand photography session' },    
 ];
 
 // DOM elements
