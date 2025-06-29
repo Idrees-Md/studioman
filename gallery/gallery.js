@@ -12,13 +12,13 @@ const galleryData = [
     { id: 10, src: '/images/bridal/bride 3.jpg', category: 'bridal', title: 'Brand Photography', alt: 'Brand photography session' },
     { id: 11, src: '/images/wedding/wedding 2.jpg', category: 'wedding', title: 'Creative wedding shot', alt: 'Creative wedding photography' },
     { id: 12, src: '/images/outdoor/outdoor 1.jpg', category: 'outdoor', title: 'Fashion Shoot', alt: 'Fashion photography in studio' },
-    { id: 13, src: 'https://picsum.photos/400/520?random=13', category: 'wedding', title: 'Reception Dance', alt: 'Wedding reception dance' },
-    { id: 14, src: 'https://picsum.photos/400/420?random=14', category: 'portrait', title: 'Senior Portrait', alt: 'Senior portrait session' },
-    { id: 15, src: 'https://picsum.photos/400/360?random=15', category: 'babyshower', title: 'Conference', alt: 'Professional conference' },
-    { id: 16, src: 'https://picsum.photos/400/580?random=16', category: 'babyshower', title: 'Architecture', alt: 'Architectural photography' },
-    { id: 17, src: 'https://picsum.photos/400/340?random=17', category: 'wedding', title: 'Wedding Details', alt: 'Wedding detail shots' },
-    { id: 18, src: 'https://picsum.photos/400/460?random=18', category: 'portrait', title: 'Couple Session', alt: 'Couple portrait session' },
-    { id: 19, src: 'https://picsum.photos/400/620?random=19', category: 'babyshower', title: 'Fine Art', alt: 'Fine art photography' },
+    { id: 13, src: '/images/bridal/bride 8.webp', category: 'bridal', title: 'bridal photograph', alt: 'professional bridal photographs' },
+    { id: 14, src: '/images/bridal/bride 9.jpg', category: 'bridal', title: 'bridal Portrait', alt: 'bridal portrait session' },
+    { id: 15, src: '/images/bridal/bride 10.avif', category: 'bridal', title: 'bridal', alt: 'Professional bridal portrait' },
+    { id: 16, src: '/images/bridal/bride 11.jpeg', category: 'bridal', title: 'beautiful bride', alt: 'bridal photography' },
+    { id: 17, src: '/images/bridal/bride 12.jpg', category: 'bridal', title: 'bridal Details', alt: 'bridal detail shots' },
+    { id: 18, src: '/images/bridal/bride 13.webp', category: 'bridal', title: 'bridal Session', alt: 'bridal portrait session' },
+    { id: 19, src: '/images/groom/groom 1.avif', category: 'groom', title: 'groom photograph', alt: 'wedding groom photography' },
     { id: 20, src: '/images/outdoor/outdoor 2.jpg', category: 'outdoor', title: 'couple Shoot', alt: 'couple shoot photography' }
 ];
 
