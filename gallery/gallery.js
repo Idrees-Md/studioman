@@ -19,7 +19,17 @@ const galleryData = [
     { id: 17, src: '/images/bridal/bride 12.jpg', category: 'bridal', title: 'bridal Details', alt: 'bridal detail shots' },
     { id: 18, src: '/images/bridal/bride 13.webp', category: 'bridal', title: 'bridal Session', alt: 'bridal portrait session' },
     { id: 19, src: '/images/groom/groom 1.avif', category: 'groom', title: 'groom photograph', alt: 'wedding groom photography' },
-    { id: 20, src: '/images/outdoor/outdoor 2.jpg', category: 'outdoor', title: 'couple Shoot', alt: 'couple shoot photography' }
+    { id: 20, src: '/images/groom/groom 2.jpg', category: 'groom', title: 'groom Shoot', alt: 'groom shoot photography' },
+    { id: 21, src: '/images/groom/groom 3.jpg', category: 'groom', title: 'Creative groom shot', alt: 'Creative groom photography' },
+    { id: 22, src: '/images/groom/groom 4.jpg', category: 'groom', title: 'groom Shoot', alt: 'groom photography in outdoor' },
+    { id: 23, src: '/images/groom/groom 5.jpg', category: 'groom', title: 'groom photograph', alt: 'professional groom photographs' },
+    { id: 24, src: '/images/groom/groom 6.jpeg', category: 'groom', title: 'groom Portrait', alt: 'groom portrait session' },
+    { id: 25, src: '/images/groom/groom 7.jpg', category: 'groom', title: 'groom', alt: 'Professional groom portrait' },
+    // { id: 26, src: '/images/bridal/bride 11.jpeg', category: 'bridal', title: 'beautiful bride', alt: 'bridal photography' },
+    // { id: 27, src: '/images/bridal/bride 12.jpg', category: 'bridal', title: 'bridal Details', alt: 'bridal detail shots' },
+    // { id: 28, src: '/images/bridal/bride 13.webp', category: 'bridal', title: 'bridal Session', alt: 'bridal portrait session' },
+    // { id: 29, src: '/images/groom/groom 1.avif', category: 'groom', title: 'groom photograph', alt: 'wedding groom photography' },
+    // { id: 30, src: '/images/outdoor/outdoor 2.jpg', category: 'outdoor', title: 'couple Shoot', alt: 'couple shoot photography' }
 ];
 
 // DOM elements
