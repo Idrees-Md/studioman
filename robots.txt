@@ -1,0 +1,1 @@
+Sitemap: https:studioman.netlify.app/sitemap.xml
