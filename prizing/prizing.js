@@ -46,61 +46,6 @@ document.querySelectorAll('.nav-link[href^="#"]').forEach((link) => {
   })
 })
 
-// Gallery dropdown menu interactions
-document.querySelectorAll(".dropdown").forEach((dropdown) => {
-  const toggle = dropdown.querySelector(".dropdown-toggle")
-  const menu = dropdown.querySelector(".dropdown-menu")
-
-  dropdown.addEventListener("mouseenter", () => {
-    menu.style.opacity = "1"
-    menu.style.visibility = "visible"
-    menu.style.transform = "translateY(0)"
-  })
-
-  dropdown.addEventListener("mouseleave", () => {
-    menu.style.opacity = "0"
-    menu.style.visibility = "hidden"
-    menu.style.transform = "translateY(-10px)"
-  })
-
-  // Handle dropdown toggle click for mobile
-  toggle.addEventListener("click", (e) => {
-    if (window.innerWidth <= 768) {
-      e.preventDefault()
-      const isOpen = menu.classList.contains("mobile-open")
-
-      // Close all other dropdowns
-      document.querySelectorAll(".dropdown-menu").forEach((m) => {
-        m.classList.remove("mobile-open")
-        m.style.display = "none"
-      })
-
-      if (!isOpen) {
-        menu.classList.add("mobile-open")
-        menu.style.display = "block"
-        menu.style.opacity = "1"
-        menu.style.visibility = "visible"
-        menu.style.transform = "translateY(0)"
-      }
-    }
-  })
-})
-
-// Gallery dropdown sub-menu link interactions
-document.querySelectorAll(".dropdown-menu a").forEach((link) => {
-  link.addEventListener("click", (e) => {
-    const href = link.getAttribute("href")
-
-    // If it's a hash link, prevent default and scroll
-    if (href.startsWith("#")) {
-      e.preventDefault()
-      const targetId = href.substring(1)
-      scrollToSection(targetId)
-    }
-    // For external gallery pages, you can add custom handling here
-    // For now, they will navigate normally to the specified HTML files
-  })
-})
 
 // Navbar scroll effect
 window.addEventListener("scroll", () => {
