@@ -148,7 +148,8 @@ function getCategoryDisplayName(category) {
         'wedding': 'Wedding Photography',
         'portrait': 'Portrait Sessions',
         'babyshower': 'BabyShower And Birthday',
-        'outdoor': 'Outdoor'
+        'outdoor': 'Outdoor',
+        'big temple': 'big temple'
     };
     return categoryNames[category] || category;
 }
